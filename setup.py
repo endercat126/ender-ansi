@@ -9,7 +9,6 @@ setup(
     name="ender_ansi",
     version=VERSION,
     author="Endercat126",
-    author_email="<mail@neuralnine.com>",
     description=DESCRIPTION,
     packages=find_packages(),
     install_requires=[],
