@@ -61,5 +61,17 @@ def demo():
     print(fg.black + bg.pink + "bg.pink   " + fx.reset + "        " + fg.black + bg.pink + fx.dull + "+ dull" + fx.reset)
     print(fg.black + bg.white + "bg.white  " + fx.reset + "        " + fg.black + bg.white + fx.dull + "+ dull" + fx.reset)
 
+def clear():
+    print("\033[2J", end='')
+
+def clear_all():
+    print("\033[2J\033[3J\033[1;1H", end='')
+
+def clear_line():
+    print("\033[2K", end='')
+
+def move_cursor(row, col):
+    print(f"\033[{row};{col}H", end='')
+
 if __name__ == "__main__":
     demo()
