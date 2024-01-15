@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 import os
 
-VERSION = '1.0.0'
-DESCRIPTION = 'Simple script containing some ANSI escape codes.'
+VERSION = '1.0.3'
+DESCRIPTION = '🌈 uwu cutesy rainbow text <3 ✨'
 
 # Setting up
 setup(
